@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre"
+             BackgroundColor="{StaticResource PrimaryDark}">
+    
+    <VerticalStackLayout>
+        <Label 
+            Text="Nome do Desenvolvedor:"
+            FontSize="25"
+            FontFamily="TinyItalic"
+            Padding="5"
+            TextColor="{StaticResource MidnightBlue}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label 
+            Text="Márcio Façanha"
+            TextColor="{StaticResource MidnightBlue}"
+            FontFamily="TinyItalic"
+            FontSize="18"
+            Margin="10"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+
+        <Label 
+            Text="Data do desenvolvimento:"
+            TextColor="{StaticResource Magenta}"
+            FontFamily="TinyItalic"
+            FontSize="25"
+            Padding="15"
+            Margin="10"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+
+
+        <Label 
+            Text="30/10/2026"
+            TextColor="{StaticResource Magenta}"
+            FontSize="20"
+            FontFamily="TinyItalic"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Button Text="Voltar"
+                WidthRequest="100"
+                Margin="40"
+                BackgroundColor="DarkGray"
+                Clicked="Button_Clicked"></Button>
+
+
+
+    </VerticalStackLayout>
+</ContentPage>
